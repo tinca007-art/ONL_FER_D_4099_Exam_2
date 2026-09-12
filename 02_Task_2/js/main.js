@@ -56,7 +56,7 @@ function parseUserData(data) {
             email,
             nin,
         }))
-        .sort((a, b) => a.id - b.id ? 1 : -1);
+        .sort((a, b) => a.id - b.id ? -1 : 1);
         
 }
 console.table(parseUserData(users));
