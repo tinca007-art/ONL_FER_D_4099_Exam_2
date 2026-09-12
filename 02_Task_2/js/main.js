@@ -46,9 +46,7 @@ const users = [
     },
 ];
 
-/**
- * Write your code below!
- */
+
 function parseUserData(data) {
     return data
         .filter(user => user.language === "French")
